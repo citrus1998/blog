@@ -1,5 +1,5 @@
 ---
-title: About 
+title: 概要
 menu:
     main: 
         weight: -90
@@ -7,4 +7,5 @@ menu:
             icon: user
 ---
 
-This is a test page for i18n support.
+This blog will provide the posts you may be beneficial with you.  
+

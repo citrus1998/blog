@@ -6,7 +6,7 @@ title: citrus1998
 
 languages:
     ja:
-        languageName: Japanese
+        languageName: "日本語" 
         title: citrus1998 in Japanese
         weight: 1
     en:

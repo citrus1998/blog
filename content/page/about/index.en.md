@@ -1,5 +1,5 @@
 ---
-title: 关于
+title: About 
 menu:
     main: 
         weight: -90
@@ -7,4 +7,5 @@ menu:
             icon: user
 ---
 
-This blog will provide the posts you may be beneficial with you.
+This blog will provide the posts you may be beneficial with you.  
+

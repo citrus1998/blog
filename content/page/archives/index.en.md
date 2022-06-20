@@ -1,5 +1,5 @@
 ---
-title: "アーカイブ"
+title: "Archives"
 date: 2022-01-01
 layout: "archives"
 slug: "archives"
