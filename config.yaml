@@ -58,7 +58,7 @@ params:
 
     sidebar:
         emoji: 🍊
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: 自由に投稿します．宜しくお願い致します． 
         avatar:
             enabled: true
             local: true
