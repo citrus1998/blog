@@ -1,6 +1,6 @@
 baseurl = "https://example.com"
-languageCode = "en"
-defaultContentLanguage = "en"
+languageCode = "ja"
+defaultContentLanguage = "ja"
 title = "Hugo Theme Dream"
 theme = "hugo-theme-dream"
 
@@ -27,9 +27,9 @@ theme = "hugo-theme-dream"
 
   author = "Yue Yang"
   # description = ""
-  avatar = "/img/avatar.jpeg"
-  headerTitle = "Hugo Theme Dream"
-  motto = "Motto"
+  avatar = "/img/myicon.jpg"
+  headerTitle = "citrus1998"
+  motto = "四国や関西（京都・奈良・兵庫）が好きです．宜しくお願い致します．"
   # maxTags = 5
   # categoriesLimitInHeader = 6 # deprecated
   # headerBottomText = "" # deprecated
