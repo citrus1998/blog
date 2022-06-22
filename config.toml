@@ -9,17 +9,17 @@ theme = "LoveIt"
 
 # website title
 # 网站标题
-title = "LoveIt"
+title = "citrus1998"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 # 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
 defaultContentLanguage = "en"
 # language code ["en", "zh-CN", "fr", "pl", ...]
 # 网站语言, 仅在这里 CN 大写 ["en", "zh-CN", "fr", "pl", ...]
-languageCode = "en"
+languageCode = "ja"
 # language name ["English", "简体中文", "Français", "Polski", ...]
 # 语言名称 ["English", "简体中文", "Français", "Polski", ...]
-languageName = "English"
+languageName = "japanese"
 # whether to include Chinese/Japanese/Korean
 # 是否包括中日韩文字
 hasCJKLanguage = false
@@ -102,7 +102,7 @@ enableEmoji = true
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
   # 网站标题, 用于 Open Graph 和 Twitter Cards
-  title = "LoveIt"
+  title = "citrus1998"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
   description = "Hugo theme - LoveIt"
@@ -263,7 +263,7 @@ enableEmoji = true
       title = ""
       # subtitle shown in home page (HTML format is supported)
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+      subtitle = "四国や関西（京都・兵庫・奈良）が好きです．宜しくお願い致します．"
       # whether to use typeit animation for subtitle
       # 是否为副标题显示打字机动画
       typeit = true
@@ -782,8 +782,102 @@ enableEmoji = true
 # Multilingual
 # 多语言
 [languages]
-  [languages.en]
+  [languages.ja]
     weight = 1
+    languageCode = "ja"
+    languageName = "日本語"
+    hasCJKLanguage = false
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    [languages.ja.menu]
+      [[languages.ja.menu.main]]
+        weight = 1
+        identifier = "posts"
+        pre = ""
+        post = ""
+        name = "Posts"
+        url = "/posts/"
+        title = ""
+      [[languages.ja.menu.main]]
+        weight = 2
+        identifier = "tags"
+        pre = ""
+        post = ""
+        name = "Tags"
+        url = "/tags/"
+        title = ""
+      [[languages.ja.menu.main]]
+        weight = 3
+        identifier = "categories"
+        pre = ""
+        post = ""
+        name = "Categories"
+        url = "/categories/"
+        title = ""
+      [[languages.ja.menu.main]]
+        weight = 4
+        identifier = "documentation"
+        pre = ""
+        post = ""
+        name = "Docs"
+        url = "/categories/documentation/"
+        title = ""
+      [[languages.ja.menu.main]]
+        weight = 5
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "About"
+        url = "/about/"
+        title = ""
+      [[languages.ja.menu.main]]
+        weight = 6
+        identifier = "github"
+        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
+        post = ""
+        name = ""
+        url = "https://github.com/dillonzq/LoveIt"
+        title = "GitHub"
+    [languages.ja.params]
+      [languages.ja.params.search]
+        enable = true
+        type = "algolia"
+        contentLength = 4000
+        placeholder = ""
+        maxResultLength = 10
+        snippetLength = 30
+        highlightTag = "em"
+        absoluteURL = false
+        [languages.ja.params.search.algolia]
+          index = "index.ja"
+          appID = "PASDMWALPK"
+          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+      [languages.ja.params.home]
+        rss = 10
+        [languages.ja.params.home.profile]
+          enable = true
+          gravatarEmail = ""
+          avatarURL = "/images/avatar.png"
+          title = ""
+          subtitle = "四国や関西（京都・兵庫・奈良）が好きです．宜しくお願い致します．"
+          typeit = true
+          social = true
+          disclaimer = ""
+      [languages.ja.params.social]
+        GitHub = "xxxx"
+        Twitter = "xxxx"
+        Instagram = "xxxx"
+        Facebook = "xxxx"
+        Telegram = "xxxx"
+        Youtubelegacy = "xxxx"
+        Phone = "555-555-555"
+        Email = "xxxx@xxxx.com"
+        RSS = true
+        [languages.ja.params.social.Mastodon]
+          id = "@xxxx"
+          prefix = "https://mastodon.technology/"
+
+  [languages.en]
+    weight = 2
     languageCode = "en"
     languageName = "English"
     hasCJKLanguage = false
@@ -877,7 +971,7 @@ enableEmoji = true
           prefix = "https://mastodon.technology/"
 
   [languages.zh-cn]
-    weight = 2
+    weight = 3
     languageCode = "zh-CN"
     languageName = "简体中文"
     hasCJKLanguage = true
