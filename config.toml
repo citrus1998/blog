@@ -5,7 +5,7 @@ baseURL = "https://example.com"
 theme = "LoveIt"
 # themes directory
 # 主题目录
-#themesDir = "../.."
+# themesDir = "../.."
 
 # website title
 # 网站标题
@@ -13,7 +13,7 @@ title = "citrus1998"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 # 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
-defaultContentLanguage = "en"
+defaultContentLanguage = "ja"
 # language code ["en", "zh-CN", "fr", "pl", ...]
 # 网站语言, 仅在这里 CN 大写 ["en", "zh-CN", "fr", "pl", ...]
 languageCode = "ja"
@@ -257,7 +257,7 @@ enableEmoji = true
       gravatarEmail = ""
       # URL of avatar shown in home page
       # 主页显示头像的 URL
-      avatarURL = "/images/avatar.png"
+      avatarURL = "/images/myicon.png"
       # title shown in home page (HTML format is supported)
       # 主页显示的网站标题 (支持 HTML 格式)
       title = ""
@@ -602,7 +602,7 @@ enableEmoji = true
       # 出版者信息
       [params.page.seo.publisher]
         name = "xxxx"
-        logoUrl = "/images/avatar.png"
+        logoUrl = "/images/myicon.png"
 
   # TypeIt config
   # TypeIt 配置
@@ -856,7 +856,7 @@ enableEmoji = true
         [languages.ja.params.home.profile]
           enable = true
           gravatarEmail = ""
-          avatarURL = "/images/avatar.png"
+          avatarURL = "/images/myicon.jpg"
           title = ""
           subtitle = "四国や関西（京都・兵庫・奈良）が好きです．宜しくお願い致します．"
           typeit = true
@@ -950,9 +950,9 @@ enableEmoji = true
         [languages.en.params.home.profile]
           enable = true
           gravatarEmail = ""
-          avatarURL = "/images/avatar.png"
+          avatarURL = "/images/myicon.jpg"
           title = ""
-          subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+          subtitle = "Hi, I'll post any issues freely."
           typeit = true
           social = true
           disclaimer = ""
@@ -1043,7 +1043,7 @@ enableEmoji = true
         [languages.zh-cn.params.home.profile]
           enable = true
           gravatarEmail = ""
-          avatarURL = "/images/avatar.png"
+          avatarURL = "/images/myicon.jpg"
           title = ""
           subtitle = "一个简洁、优雅且高效的 Hugo 主题"
           typeit = true
