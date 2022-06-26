@@ -47,7 +47,7 @@ enableEmoji = true
 # Author config
 # 作者配置
 [author]
-  name = "xxxx"
+  name = "citrus1998"
   email = ""
   link = ""
 
@@ -127,10 +127,10 @@ enableEmoji = true
       logo = ""
       # title name
       # 标题名称
-      name = "LoveIt"
+      name = "citrus1998"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = "<i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i>"
+      pre = "<i class='fa-solid fa-circle-nodes'></i>"   
       # you can add extra information after the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
@@ -156,7 +156,7 @@ enableEmoji = true
     author = true
     # site creation time
     # 网站创立年份
-    since = 2019
+    since = 2022
     # ICP info only in China (HTML format is supported)
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
     icp = ""
@@ -865,16 +865,16 @@ enableEmoji = true
       [languages.ja.params.social]
         GitHub = "xxxx"
         Twitter = "xxxx"
-        Instagram = "xxxx"
-        Facebook = "xxxx"
-        Telegram = "xxxx"
-        Youtubelegacy = "xxxx"
-        Phone = "555-555-555"
-        Email = "xxxx@xxxx.com"
+        #Instagram = "xxxx"
+        #Facebook = "xxxx"
+        #Telegram = "xxxx"
+        #Youtubelegacy = "xxxx"
+        #Phone = "555-555-555"
+        #Email = "xxxx@xxxx.com"
         RSS = true
-        [languages.ja.params.social.Mastodon]
-          id = "@xxxx"
-          prefix = "https://mastodon.technology/"
+        #[languages.ja.params.social.Mastodon]
+        #  id = "@xxxx"
+        #  prefix = "https://mastodon.technology/"
 
   [languages.en]
     weight = 2
@@ -959,16 +959,16 @@ enableEmoji = true
       [languages.en.params.social]
         GitHub = "xxxx"
         Twitter = "xxxx"
-        Instagram = "xxxx"
-        Facebook = "xxxx"
-        Telegram = "xxxx"
-        Youtubelegacy = "xxxx"
-        Phone = "555-555-555"
-        Email = "xxxx@xxxx.com"
+        #Instagram = "xxxx"
+        #Facebook = "xxxx"
+        #Telegram = "xxxx"
+        #Youtubelegacy = "xxxx"
+        #Phone = "555-555-555"
+        #Email = "xxxx@xxxx.com"
         RSS = true
-        [languages.en.params.social.Mastodon]
-          id = "@xxxx"
-          prefix = "https://mastodon.technology/"
+        #[languages.en.params.social.Mastodon]
+        #  id = "@xxxx"
+        #  prefix = "https://mastodon.technology/"
 
   [languages.zh-cn]
     weight = 3
@@ -1051,12 +1051,12 @@ enableEmoji = true
           disclaimer = ""
       [languages.zh-cn.params.social]
         GitHub = "xxxx"
-        Weibo = "xxxx"
-        Steam = "xxxx"
-        Zhihu = "xxxx"
-        Douban = "xxxx"
-        Devto = "xxxx"
-        Bilibili = "xxxx"
-        Email = "xxxx@xxxx.com"
-        Phone = "555-555-555"
+        #Weibo = "xxxx"
+        #Steam = "xxxx"
+        #Zhihu = "xxxx"
+        #Douban = "xxxx"
+        #Devto = "xxxx"
+        #Bilibili = "xxxx"
+        #Email = "xxxx@xxxx.com"
+        #Phone = "555-555-555"
         RSS = true
