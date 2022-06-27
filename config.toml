@@ -835,7 +835,7 @@ enableEmoji = true
         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
         post = ""
         name = ""
-        url = "https://github.com/dillonzq/LoveIt"
+        url = "https://github.com/citrus1998/"
         title = "GitHub"
     [languages.ja.params]
       [languages.ja.params.search]
@@ -929,7 +929,7 @@ enableEmoji = true
         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
         post = ""
         name = ""
-        url = "https://github.com/dillonzq/LoveIt"
+        url = "https://github.com/citrus1998/"
         title = "GitHub"
     [languages.en.params]
       [languages.en.params.search]
@@ -1022,7 +1022,7 @@ enableEmoji = true
         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
         post = ""
         name = ""
-        url = "https://github.com/dillonzq/LoveIt"
+        url = "https://github.com/citrus1998/"
         title = "GitHub"
     [languages.zh-cn.params]
       [languages.zh-cn.params.search]
