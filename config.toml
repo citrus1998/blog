@@ -863,8 +863,8 @@ enableEmoji = true
           social = true
           disclaimer = ""
       [languages.ja.params.social]
-        GitHub = "xxxx"
-        Twitter = "xxxx"
+        GitHub = "citrus1998"
+        Twitter = "citrus1998"
         #Instagram = "xxxx"
         #Facebook = "xxxx"
         #Telegram = "xxxx"
@@ -957,8 +957,8 @@ enableEmoji = true
           social = true
           disclaimer = ""
       [languages.en.params.social]
-        GitHub = "xxxx"
-        Twitter = "xxxx"
+        GitHub = "citrus1998"
+        Twitter = "citrus1998"
         #Instagram = "xxxx"
         #Facebook = "xxxx"
         #Telegram = "xxxx"
@@ -1050,7 +1050,7 @@ enableEmoji = true
           social = true
           disclaimer = ""
       [languages.zh-cn.params.social]
-        GitHub = "xxxx"
+        GitHub = "citrus1998"
         #Weibo = "xxxx"
         #Steam = "xxxx"
         #Zhihu = "xxxx"
