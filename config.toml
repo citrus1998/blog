@@ -127,10 +127,10 @@ enableEmoji = true
       logo = ""
       # title name
       # 标题名称
-      name = "citrus1998"
+      name = "Meta++ Blog"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = "<i class='fa-solid fa-circle-nodes'></i>"   
+      #pre = "<i class='fa-solid fa-circle-nodes'></i>"   
       # you can add extra information after the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
@@ -850,7 +850,7 @@ enableEmoji = true
           gravatarEmail = ""
           avatarURL = "/images/myicon.jpg"
           title = ""
-          subtitle = "四国や関西（京都・兵庫・奈良）が好きです．宜しくお願い致します．"
+          subtitle = "自由に投稿します．宜しくお願い致します．"
           typeit = true
           social = true
           disclaimer = ""
@@ -936,7 +936,7 @@ enableEmoji = true
           gravatarEmail = ""
           avatarURL = "/images/myicon.jpg"
           title = ""
-          subtitle = "Hi, I'll post any issues freely."
+          subtitle = "Hi, I'll post any articles freely."
           typeit = true
           social = true
           disclaimer = ""
@@ -1022,7 +1022,7 @@ enableEmoji = true
           gravatarEmail = ""
           avatarURL = "/images/myicon.jpg"
           title = ""
-          subtitle = "一个简洁、优雅且高效的 Hugo 主题"
+          subtitle = "我会免费发布任何文章."
           typeit = true
           social = true
           disclaimer = ""
