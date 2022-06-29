@@ -1,9 +1,9 @@
 ---
-title: "First_post"
+title: "初投稿"
 subtitle: ""
-date: 2022-06-27T16:31:02+09:00
-lastmod: 2022-06-27T16:31:02+09:00
-draft: false 
+date: 2022-06-29T19:47:39+09:00
+lastmod: 2022-06-29T19:47:39+09:00
+draft: false
 author: ""
 authorLink: ""
 description: ""

@@ -2,3 +2,55 @@
 // Override Variables
 // 覆盖变量
 // ==============================
+
+/*文字サイズや行間を調整しました。*/
+.single {
+    .content {
+        > h2 {
+            font-size: 1.75rem;
+            line-height: 2rem;
+            margin-top: 2.5rem;
+        }
+
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+          font-weight: bold;
+          margin: 1.2rem 0;
+          margin-top: 2.5rem;
+    
+          [theme=dark] & {
+            font-weight: bolder;
+          }
+        }
+
+        > h2,
+        > h3,
+        > h4,
+        > h5,
+        > h6 {
+          > .header-mark::before {
+            content: "┃";
+            margin-right: 0rem;
+            color: $single-link-color;
+    
+            [theme=dark] & {
+              color: $single-link-color-dark;
+            }
+          }
+        }
+
+        > h2 > .header-mark::before {
+            content: "┃";
+          }
+
+        p {
+            font-weight: 400;
+            line-height: 170%;
+            margin: .5rem 0;
+            margin-bottom: 1.25rem;
+        }
+    }
+}
