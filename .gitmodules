@@ -1,0 +1,3 @@
+[submodule "themes/materialize-bp-hugo-theme"]
+	path = themes/materialize-bp-hugo-theme
+	url = https://github.com/citrus1998/materialize-bp-hugo-theme.git
