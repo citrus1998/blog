@@ -2,13 +2,17 @@
 // Override Variables
 // 覆盖变量
 // ==============================
+/*投稿者を非表示にしました。*/
+.post-author {
+    display: none !important;
+}
 
 /*文字サイズや行間を調整しました。*/
 .single {
     .content {
         > h2 {
             font-size: 1.75rem;
-            line-height: 2rem;
+            line-height: 4rem;
             margin-top: 2.5rem;
         }
 

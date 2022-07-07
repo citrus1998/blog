@@ -2,7 +2,7 @@ baseURL = "https://example.com"
 
 theme = "LoveIt"
 
-title = "citrus1998"
+title = "Himena Note"
 
 defaultContentLanguage = "ja"
 languageCode = "ja"
@@ -20,7 +20,7 @@ enableGitInfo = true
 
 # Author config
 [author]
-  name = "citrus1998"
+  name = "Himena++"
   email = ""
   link = ""
 
@@ -32,7 +32,7 @@ enableGitInfo = true
     identifier = "posts"
     pre = ""
     post = ""
-    name = "投稿"
+    name = "Post"
     url = "/posts/"
     title = ""
   [[menu.main]]
@@ -40,7 +40,7 @@ enableGitInfo = true
     identifier = "tags"
     pre = ""
     post = ""
-    name = "タグ"
+    name = "Tag"
     url = "/tags/"
     title = ""
   [[menu.main]]
@@ -48,7 +48,7 @@ enableGitInfo = true
     identifier = "categories"
     pre = ""
     post = ""
-    name = "カテゴリー"
+    name = "Categories"
     url = "/categories/"
     title = ""
 
@@ -81,7 +81,7 @@ enableGitInfo = true
     # Header title config
     [params.header.title]
       # title name
-      name = "citrus++"
+      name = "Himena Note"
 
       # whether to use typeit animation for title name
       typeit = false
@@ -403,7 +403,7 @@ enableGitInfo = true
         identifier = "posts"
         pre = ""
         post = ""
-        name = "記事"
+        name = "記事一覧"
         url = "/posts/"
         title = ""
       [[languages.ja.menu.main]]
@@ -545,7 +545,7 @@ enableGitInfo = true
           gravatarEmail = ""
           avatarURL = "/images/myicon.jpg"
           title = ""
-          subtitle = "Hi, I'll post any articles freely."
+          subtitle = "Hi, I'll post any articles freely. Nice to meet you."
           typeit = true
           social = true
           disclaimer = ""
@@ -631,7 +631,7 @@ enableGitInfo = true
           gravatarEmail = ""
           avatarURL = "/images/myicon.jpg"
           title = ""
-          subtitle = "我会免费发布任何文章."
+          subtitle = "我会免费发布任何文章.很高兴见到你."
           typeit = true
           social = true
           disclaimer = ""
