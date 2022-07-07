@@ -1,9 +1,12 @@
 baseURL = "https://example.com"
-title = "Hugo Themes"
+title = "Himena Blog"
 copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
 paginate = 2
-languageCode = "en"
-DefaultContentLanguage = "en"
+languageCode = "ja"
+DefaultContentLanguage = "ja"
+
+hasCJKLanguage = true
+
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 googleAnalytics = "UA-XXXX"
@@ -11,17 +14,42 @@ DisqusShortname = ""
 theme = "hugo-theme-chunky-poster"
 ignoreErrors = ["error-missing-instagram-accesstoken"]
 
+# Author config
+[author]
+  name = "Himena"
+  email = ""
+  link = ""
+
 [menu]
   [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 10
+    weight = 1
+    identifier = "post"
+    pre = ""
+    post = ""
+    name = "Post"
+    url = "/post/"
+    title = ""
   [[menu.main]]
+    weight = 2
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tag"
+    url = "/tags/"
+    title = ""
+  [[menu.main]]
+    weight = 3
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+  [[menu.main]]
+    weight = 4
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 0
 
 [taxonomies]
 category = "categories"
@@ -30,10 +58,13 @@ series = "series"
 author = "authors"
 
 [params]
-  author = "Hugo Authors"
-  description = "Lorem ipsum dolor sit amet."
-  homepageImage = "/images/homepage-image.jpg"
-  dateFormat = "January 2, 2006"
+  # site default theme ["auto", "light", "dark"]
+  defaultTheme = "auto"
+
+  author = "Himena"
+  #description = ""
+  #homepageImage = "/images/homepage-image.jpg"
+  dateFormat = "2006.01.02"
   share = true
   showLanguageSwitcher = false
 
@@ -41,22 +72,28 @@ author = "authors"
   customCSS = []
   customJS = []
 
+  # Header config
+  [params.header]
+    # desktop header mode ["fixed", "normal", "auto"]
+    desktopMode = "fixed"
+
+    # mobile header mode ["fixed", "normal", "auto"]
+    mobileMode = "auto"
+
   [params.social]
     rss = true
-    email = "example@example.com"
-    facebook = "https://facebook.com"
-    twitter = "https://twitter.com"
-    linkedin = "https://linkedin.com"
-    stack-overflow = "https://stackoverflow.com"
-    instagram = "https://instagram.com"
-    github = "https://github.com"
-    weibo = "https://www.weibo.com"
-    medium = "https://medium.com"
-    pinterest = "https://pinterest.com"
-    reddit = "https://reddit.com"
-    gitlab = "https://gitlab.com"
-    mastodon = "https://mastodon.social"
-    keybase = "https://keybase.io/"
+    email = ""
+    facebook = ""
+    twitter = "https://twitter.com/citrus1998"
+    linkedin = ""
+    stack-overflow = ""
+    instagram = ""
+    github = "https://github.com/citrus1998"
+    weibo = ""
+    medium = ""
+    pinterest = ""
+    reddit = ""
+    gitlab = ""
 
   [params.prismJS]
     enable = true
@@ -66,15 +103,226 @@ author = "authors"
     enable = true
     url = "https://commento.io"
 
+  [params.home]
+
+    # amount of RSS pages
+    rss = 10
+
+    # Home page profile
+    [params.home.profile]
+      enable = true
+
+      # URL of avatar shown in home page
+      avatarURL = "images/myicon.jpg"
+
+      # title shown in home page (HTML format is supported)
+      title = ""
+
+      # subtitle shown in home page (HTML format is supported)
+      subtitle = "自由に投稿します．宜しくお願い致します．"
+
+      # whether to use typeit animation for subtitle
+      typeit = true
+
+      # whether to show social links
+      social = true
+
+      # disclaimer (HTML format is supported)
+      disclaimer = ""
+
+    # Home page posts
+    [params.home.posts]
+      enable = true
+
+      # date format (month and day)
+       dateFormat = "01.02"
+
+      # special amount of posts in each home posts page
+      paginate = 6
+
+  # Page global config
+  [params.page]
+    # whether to hide a page from home page
+    hiddenFromHomePage = false
+
+    # whether to hide a page from search results
+    hiddenFromSearch = false
+
+    # whether to enable twemoji
+    twemoji = false
+
+    # whether to enable lightgallery
+    lightgallery = false
+
+    # whether to enable the ruby extended syntax
+    ruby = true
+
+    # whether to enable the fraction extended syntax
+    fraction = true
+
+    # whether to enable the fontawesome extended syntax
+    fontawesome = true
+
+    # whether to show link to Raw Markdown content of the content
+    linkToMarkdown = true
+
+    # whether to show the full text content in RSS
+    rssFullText = false
+
+    # Table of the contents config
+    [params.page.toc]
+      # whether to enable the table of the contents
+      enable = true
+
+      # whether to keep the static table of the contents in front of the post
+      keepStatic = false
+
+      # whether to make the table of the contents in the sidebar automatically collapsed
+      auto = true
+
+    # Code config
+    [params.page.code]
+      # whether to show the copy button of the code block
+      copy = true
+
+      # the maximum number of lines of displayed code by default
+      maxShownLines = 50
+
+    # KaTeX mathematical formulas config (KaTeX https://katex.org/)
+    [params.page.math]
+      enable = false
+
+      # default inline delimiter is $ ... $ and \( ... \)
+      inlineLeftDelimiter = ""
+      inlineRightDelimiter = ""
+
+      # default block delimiter is $$ ... $$, \[ ... \], \begin{equation} ... \end{equation} and some other functions
+      blockLeftDelimiter = ""
+      blockRightDelimiter = ""
+
+      # KaTeX extension copy_tex
+      copyTex = true
+
+      # KaTeX extension mhchem
+      mhchem = true
+
+    # Social share links in post page
+    [params.page.share]
+      enable = true
+      Twitter = true
+      Facebook = true
+      Linkedin = false
+      HackerNews = true
+      Reddit = false
+      Weibo = true
+      Blogger = false
+      Baidu = false
+      Evernote = false
+      Trello = false
+
+  # Analytics config
+  [params.analytics]
+    enable = false
+
+    # Google Analytics
+    [params.analytics.google]
+      id = ""
+
+      # whether to anonymize IP
+      anonymizeIP = true
+
+    # Fathom Analytics
+    [params.analytics.fathom]
+      id = ""
+
+      # server url for your tracker if you're self hosting
+      server = ""
+
+    # Plausible Analytics
+    [params.analytics.plausible]
+      dataDomain = ""
+
+  # Cookie consent config
+  [params.cookieconsent]
+    enable = false
+    # text strings used for Cookie consent banner
+    [params.cookieconsent.content]
+      message = ""
+      dismiss = ""
+      link = ""
+
+  # CDN config for third-party library files
+  [params.cdn]
+    # CDN data file name, disabled by default
+    # ["jsdelivr.yml"]
+    # located in "themes/LoveIt/assets/data/cdn/" directory
+    # you can store your own data files in the same path under your project:
+    # "assets/data/cdn/"
+    data = "jsdelivr.yml"
+
+[outputFormats.MarkDown]
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
+# Options to make hugo output files
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "MarkDown"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
+
 [markup]
   [markup.highlight]
     codeFences = false
 
 [services]
   [services.instagram]
-    disableInlineCSS = true
+    disableInlineCSS = false
 
   [services.twitter]
     disableInlineCSS = true
+
+[languages]
+  [languages.ja]
+    weight = 1
+    languageCode = "ja"
+    languageName = "日本語"
+    hasCJKLanguage = true
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    [languages.ja.menu]
+      [[languages.ja.menu.main]]
+        weight = 1
+        identifier = "post"
+        pre = ""
+        post = ""
+        name = "記事一覧"
+        url = "/post/"
+        title = ""
+      [[languages.ja.menu.main]]
+        weight = 2
+        identifier = "tags"
+        pre = ""
+        post = ""
+        name = "タグ"
+        url = "/tags/"
+        title = ""
+      [[languages.ja.menu.main]]
+        weight = 3
+        identifier = "categories"
+        pre = ""
+        post = ""
+        name = "カテゴリー"
+        url = "/categories/"
+        title = ""
+      [[languages.ja.menu.main]]
+        weight = 4
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "このサイトについて"
+        url = "/about/"
+        title = ""
 
 
