@@ -1,8 +1,8 @@
-baseURL = "https://example.com"
+baseURL = "https://citrus1998.github.io"
 
 theme = "LoveIt"
 
-title = "Yu an Ai"
+title = "Citrus Learning 🍊"
 
 defaultContentLanguage = "ja"
 languageCode = "ja"
@@ -20,7 +20,7 @@ enableGitInfo = true
 
 # Author config
 [author]
-  name = "xhuAi"
+  name = "citrus1998"
   email = ""
   link = ""
 
@@ -81,7 +81,7 @@ enableGitInfo = true
     # Header title config
     [params.header.title]
       # title name
-      name = "Yu an Ai"
+      name = "Citrus Learning 🍊"
 
       # whether to use typeit animation for title name
       typeit = false
