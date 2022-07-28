@@ -2,7 +2,7 @@ baseURL = "https://example.com"
 
 theme = "LoveIt"
 
-title = "Himena Note"
+title = "Yu an Ai"
 
 defaultContentLanguage = "ja"
 languageCode = "ja"
@@ -20,7 +20,7 @@ enableGitInfo = true
 
 # Author config
 [author]
-  name = "Himena++"
+  name = "xhuAi"
   email = ""
   link = ""
 
@@ -81,7 +81,7 @@ enableGitInfo = true
     # Header title config
     [params.header.title]
       # title name
-      name = "Himena Note"
+      name = "Yu an Ai"
 
       # whether to use typeit animation for title name
       typeit = false
@@ -184,7 +184,7 @@ enableGitInfo = true
       title = ""
 
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "自由に投稿します．宜しくお願い致します．"
+      #subtitle = ""
 
       # whether to use typeit animation for subtitle
       typeit = true
@@ -455,7 +455,7 @@ enableGitInfo = true
       [languages.ja.params.home]
         rss = 10
         [languages.ja.params.home.profile]
-          enable = true
+          enable = false
           gravatarEmail = ""
           avatarURL = "/images/myicon.jpg"
           title = ""
@@ -541,7 +541,7 @@ enableGitInfo = true
       [languages.en.params.home]
         rss = 10
         [languages.en.params.home.profile]
-          enable = true
+          enable = false
           gravatarEmail = ""
           avatarURL = "/images/myicon.jpg"
           title = ""
@@ -627,7 +627,7 @@ enableGitInfo = true
       [languages.zh-cn.params.home]
         rss = 10
         [languages.zh-cn.params.home.profile]
-          enable = true
+          enable = false
           gravatarEmail = ""
           avatarURL = "/images/myicon.jpg"
           title = ""
